@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className='font-semibold text-black'>+1-123-456-7890</p>
-                    <p className='my-5'>123 Main Street, Akaki Kality , Addis Ababa Ethiopia.</p>
+                    <p className='my-5 font-semibold text-black'>123 Main Street, Akaki Kality , Addis Ababa Ethiopia.</p>
                     <p className='font-semibold text-black'>info@abcrealestate.com</p>
                 </div>
             </div>
