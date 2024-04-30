@@ -12,10 +12,10 @@ const Navbar = () => {
   const closeMobileMenu = () => setShow(false);
 
   return (
-    <div className='overflow-x-hidden top-0 fixed w-screen bg-primary -mt-4'>
+    <div className='overflow-x-hidden top-0 fixed w-screen bg-primary -mt-4 z-50'>
       <div className='flex lg:hidden justify-between items-center mt-2 mx-3 py-2'>
-        <img src={logo} alt='' className='max-w-[249px] max-h-[63px]' />
-        <div onClick={() => setShow(!show)}>
+        <img src={logo} alt='' className='max-w-[249px] max-h-[63px] ' />
+        <div onClick={() => setShow(!show)} className='text-black'>
           {show ? <FaTimes />:<FaBars /> }
         </div>
       </div>
