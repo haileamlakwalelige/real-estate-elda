@@ -11,7 +11,7 @@ const HomeProperty: React.FC = () => {
     };
 
     return (
-        <div className="container flex justify-between items-center bg-secondary lg:max-h-[450px] overflow-y-visible mx-2 sm:mx-4 md:mx-12 lg:mx-20 mt-10">
+        <div className="container flex flex-col lg:flex-row justify-between items-center bg-secondary lg:max-h-[450px] overflow-y-visible mx-2 sm:mx-4 md:mx-12 lg:mx-20 mt-10">
             <div className="left-section">
                 {jsonData.map((item: any) => (
                     <img
@@ -25,7 +25,7 @@ const HomeProperty: React.FC = () => {
             </div>
             <div className="right-section">
                 {selectedItem && (
-                    <div className="flex w-full justify-end gap-10 items-center">
+                    <div className="flex lg:flex-row flex-col w-full justify-end gap-10 items-center">
                         <div className='max-w-[250px] flex justify-center items-center lg:mr-[5%]'>
                             <p className='max-w-[250px] text-center text-[20px] md:text-[22px] lg:text-[24px]'>{selectedItem.description}</p>
                         </div>
