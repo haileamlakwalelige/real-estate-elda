@@ -23,7 +23,6 @@ const HomeForm = () => {
                         <input type="email" className="min-w-[300px] lg:min-w-[465px] px-2 h-[50px] bg-primary placeholder:px-2 placeholder:text-footer text-footer rounded outline-none focus:outline-none" />
                     </div>
 
-
                     {/* Item 3 */}
                     <div className="flex flex-col justify-start items-start">
                         <p className="text-footer text-[14px] pb-2">Message</p>
