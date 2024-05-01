@@ -7,6 +7,9 @@ import Footer from "./components/layout/Footer"
 import Copy from "./components/layout/Copy"
 
 const App = () => {
+
+ 
+
   return (
     <div>
       <BrowserRouter>
