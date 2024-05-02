@@ -33,7 +33,7 @@ const HomeHero = () => {
           <img src={home3} alt="" className="w-screen h-screen" />
         </div>
       </Slider>
-      <div className='-mt-96 z-30 absolute ml-20'>
+      <div className='-mt-96 z-30 absolute ml-4 sm:ml-8 md:ml-12 lg:ml-20'>
         <p className='text-white font-bold text-[50px] md:text-[60px] lg:text-[70px] py-4'>ELDANA Spring Homes</p>
         <p className='text-white text-[26px] md:text-[30px] lg:text-[34px] mb-8'>Where Luxury Meets Comfort</p>
         <div className='ml-10'>
