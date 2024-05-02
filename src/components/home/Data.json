@@ -1,18 +1,18 @@
 [
     {
       "id": 1,
-      "image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-      "description": "3-bedroom apartment Akaki Kality, Addis Ababa, $1,550 - $5,845"
+      "image": "https://i.ibb.co/TLQvQzq/home3.png",
+      "description": "3-bedroom apartment Akaki Kality,Addis Ababa, $1,550 - $5,845"
     },
     {
       "id": 2,
-      "image": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" ,
-      "description": "fully finished Akaki Kality, Addis Ababa, $6,550 - $8,845"
+      "image": "https://i.ibb.co/WyxRKYg/home1.png" ,
+      "description": "fully finished Akaki Kality,Addis Ababa, $6,550 - $8,845"
     },
     {
       "id": 3,
-      "image": "https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg",
-      "description": "4-bedroom apartment Akaki Kality, Addis Ababa, $2,550 - $6,845"
+      "image": "https://i.ibb.co/pXxnDKD/home2.png",
+      "description": "4-bedroom apartment Akaki Kality,Addis Ababa, $2,550 - $6,845"
     }
   ]
   
