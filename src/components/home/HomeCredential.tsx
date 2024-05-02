@@ -6,7 +6,7 @@ import cre3 from '../../assets/cre3.png';
 const HomeCredential = () => {
   return (
     <div>
-      <h1 className="font-semibold text-[30px] md:text-[35px] lg:text-[40px] text-center py-3 px-2 sm:px-6 md:px-12 lg:px-20 pb-10">Credentials</h1>
+      <h1 className="font-semibold text-[30px] md:text-[35px] lg:text-[40px] text-center py-3 px-2 sm:px-6 md:px-12 lg:px-20 pb-10">Why Us</h1>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-start gap-10 lg:gap-20 px-2 sm:px-6 md:px-12 lg:px-20'>
         <div className='text-center justify-center flex flex-col items-center gap-4'>
           <img src={cre1} alt="" className='h-[105px] w-[105px] md:mt-4'/>
