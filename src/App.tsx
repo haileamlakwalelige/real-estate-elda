@@ -5,6 +5,7 @@ import Home from "./screens/Home"
 import Navbar from "./components/layout/Navbar"
 import Footer from "./components/layout/Footer"
 import Copy from "./components/layout/Copy"
+import Properties from "./screens/Properties"
 
 const App = () => {
 
@@ -15,7 +16,8 @@ const App = () => {
       <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/properties" element={<Properties />} />
       </Routes>
       <Footer />
       <Copy />
