@@ -37,7 +37,7 @@ const HomeExplore = () => {
     };
 
     return (
-        <div>
+        <div className='flex flex-col hidden lg:flex'>
             <p className='text-black font-semibold text-[28px] text-center pb-5  md:text-[30px] lg:text-[32px]'>Explore what we have</p>
             <div className='flex flex-wrap justify-center lg:justify-between items-center px-2 gap-6 sm:px-6 md:px-12 lg:px-20 xl:px-24'>
                 <div 
