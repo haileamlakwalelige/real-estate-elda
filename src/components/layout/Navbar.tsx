@@ -6,6 +6,7 @@ import insta from '../../assets/insta.png';
 import logo from '../../assets/navlogo.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [show, setShow] = useState<boolean>(false);
@@ -34,9 +35,15 @@ const Navbar = () => {
             <img src={logo} alt='' className='max-w-[249px] max-h-[63px]' />
           </div>
               <div className='flex justify-center gap-6 list-none px-4 mt-3'>
-              <li onClick={closeMobileMenu} className='font-semibold text-black'>Properties</li>
+                <Link to='/properties'>
+                <li onClick={closeMobileMenu} className='font-semibold text-black'>Properties</li>
+                </Link>
+              <Link to="/about">
               <li onClick={closeMobileMenu} className='font-semibold text-black'>About Us</li>
+              </Link>
+              <Link to="/contact">
               <li onClick={closeMobileMenu} className='font-semibold text-black'>Contact Us</li>
+              </Link>
               </div>
             </div>
             <div>
@@ -51,9 +58,15 @@ const Navbar = () => {
           <div className='flex flex-col lg:hidden animate-slide-in min-h-screen justify-center items-center'>
             <div className='flex lg:hidden flex-col justify-center items-center list-none gap-8 -mt-20'>
               <div className='flex lg:hidden flex-col justify-center items-center gap-4'>
+                <Link to="/properties">
                 <li onClick={closeMobileMenu} className='font-semibold text-black'>Properties</li>
+                </Link>
+                <Link to="/about">
                 <li onClick={closeMobileMenu} className='font-semibold text-black'>About Us</li>
+                </Link>
+                <Link to="/contact">
                 <li onClick={closeMobileMenu} className='font-semibold text-black'>Contact Us</li>
+                </Link>
               </div>
               <div>
                 <li className='bg-footer text-primary py-2 px-8 rounded-3xl text-lg'>Contact us</li>
