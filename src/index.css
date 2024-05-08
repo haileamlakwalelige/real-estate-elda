@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 
@@ -6,7 +7,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.pac{
+  font-family: "Pacifico", cursive;
+}
 
 body{
   font-family: "Crimson Text", serif;
@@ -37,4 +40,27 @@ body::-webkit-scrollbar-thumb:hover {
   @apply bg-footer;
   max-height: 6px;
 }
+
+
+.hexagon-container {
+  position: relative;
+  width: 120px;
+  height: 138px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.hexagon-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  cursor: pointer;
+  /* filter: blur(4px); Apply blur filter to all images */
+}
+
+.hexagon-image.selected {
+  filter: none; /* Remove blur filter for the selected image */
+}
+
 
