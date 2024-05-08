@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import face from '../../assets/face.jpg'; // Default image placeholder
+
 
 interface Member {
   id: number;
