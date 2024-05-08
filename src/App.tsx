@@ -8,6 +8,7 @@ import Copy from "./components/layout/Copy"
 import Properties from "./screens/Properties"
 import About from "./screens/About"
 import PageNotFound from "./screens/PageNotFound"
+import ScrollToTop from "./ScrollToTop"
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
       <Route path="/" element={<Home />} />
