@@ -12,21 +12,19 @@ import ScrollToTop from "./ScrollToTop"
 
 const App = () => {
 
- 
-
   return (
     <div className="overflow-x-hidden">
       <BrowserRouter>
-      <ScrollToTop />
-      <Navbar />
-      <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/properties" element={<Properties />} />
-      <Route path="*" element={<PageNotFound />} />
-      </Routes>
-      <Footer />
-      <Copy />
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/properties" element={<Properties />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+        <Footer />
+        <Copy />
       </BrowserRouter>
     </div>
   )
