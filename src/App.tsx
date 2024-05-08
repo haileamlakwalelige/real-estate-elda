@@ -6,18 +6,22 @@ import Navbar from "./components/layout/Navbar"
 import Footer from "./components/layout/Footer"
 import Copy from "./components/layout/Copy"
 import Properties from "./screens/Properties"
+import About from "./screens/About"
+import PageNotFound from "./screens/PageNotFound"
 
 const App = () => {
 
  
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <BrowserRouter>
       <Navbar />
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
       <Route path="/properties" element={<Properties />} />
+      <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
       <Copy />
