@@ -7,8 +7,8 @@ import HomeExplore from '../components/home/HomeExplore';
 import HomeForm from '../components/home/HomeForm';
 import HomeHero from '../components/home/HomeHero';
 import HomeProperty from '../components/home/HomeProperty';
-// import HomeHero from '../components/home/HomeHero';
 import HomeWhy from '../components/home/HomeWhy';
+import Try from '../components/home/HomeExplorer2';
 import HorizontalLine from '../components/reusable/HorizontalLine';
 
 const Home = () => {
@@ -20,6 +20,7 @@ const Home = () => {
       <HomeHero />
       <HorizontalLine />
       <HomeExplore />
+      <Try />
       <HorizontalLine />
       <HomeAbout />
       <HorizontalLine />
