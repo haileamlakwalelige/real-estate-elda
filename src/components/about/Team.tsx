@@ -72,6 +72,7 @@ const Team = () => {
 
   return (
     <div className='py-10 px-2 md:px-4 lg:px-10 xl:px-16'>
+      <p className='text-gray-800 text-[30px] md:text-[35px] lg:text-[40px] text-center font-extrabold'>Meet Our Team</p>
         <div className='flex flex-col lg:flex-row justify-between items-center gap-10'>
             <div>
                 {selectedMember && (
