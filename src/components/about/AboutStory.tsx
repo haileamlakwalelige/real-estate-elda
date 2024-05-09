@@ -15,7 +15,7 @@ const AboutStory = () => {
         justifyContent: 'start',
         alignItems: 'start',
         color: 'white', // Text color on top of the image
-      }} className='py-10 overflow-hidden h-full lg:h-[100vh]'>
+      }} className='py-10 overflow-x-hidden h-full lg:h-[100vh]'>
        <div className='px-2 md:px-4 lg:px-10 xl:px-16 flex flex-col'>
       <div className='flex justify-between items-center gap-10 w-screen lg:pr-28'>
         <div>
