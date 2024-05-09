@@ -9,6 +9,7 @@ import Properties from "./screens/Properties"
 import About from "./screens/About"
 import PageNotFound from "./screens/PageNotFound"
 import ScrollToTop from "./ScrollToTop"
+import Contact from "./screens/Contact"
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
