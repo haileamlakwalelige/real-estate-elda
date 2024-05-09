@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ProHeroImage from '../../assets/prophome.png';
 
 const ProHero: React.FC = () => {

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 // Changed: Added types for props
 interface ButtonProps {
