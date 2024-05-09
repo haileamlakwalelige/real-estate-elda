@@ -9,7 +9,7 @@ interface ButtonProps {
 // Changed: Defined Button as a functional component with explicit types for props
 const Button: React.FC<ButtonProps> = ({ text, type }) => {
     return (
-      <button  type = { type } className = 'bg-footer px-8 py-2 rounded-2xl font-semibold text-primary text-center' >
+      <button  type = { type } className = 'bg-footer px-8 py-2 rounded-lg font-bold text-primary text-center ' >
         {text}
       </button>
   );
