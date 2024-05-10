@@ -63,4 +63,8 @@ body::-webkit-scrollbar-thumb:hover {
   filter: none; /* Remove blur filter for the selected image */
 }
 
+body{
+  @apply text-gray-800;
+}
+
 
