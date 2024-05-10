@@ -29,7 +29,7 @@ const AboutHero = () => {
         alignItems: 'center',
         height:'100%',
         minHeight:"320px"
-      }} className='min-w-[300px] md:w-full text-black lg:max-w-[500px] xl:max-w-[550px] px-2 md:px-5 lg:px-10 rounded-2xl'>
+      }} className='min-w-[300px] md:w-full text-gray-800 lg:max-w-[500px] xl:max-w-[550px] px-2 md:px-5 lg:px-10 rounded-2xl'>
         <p className='py-2 px-4 text-[20px] md:text-[22px] text-center'>At Eldana Spring Homes, we believe that finding the perfect home is more than just a transaction; it's about creating a sanctuary where families can thrive and memories are made. With a commitment to excellence and a passion for delivering exceptional properties, we are dedicated to helping our clients find their dream homes.</p>
       </div>
         </div>
