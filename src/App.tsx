@@ -10,6 +10,7 @@ import About from "./screens/About"
 import PageNotFound from "./screens/PageNotFound"
 import ScrollToTop from "./ScrollToTop"
 import Contact from "./screens/Contact"
+import Information from "./screens/Information"
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/information" element={<Information />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
