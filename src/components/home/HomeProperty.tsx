@@ -13,7 +13,7 @@ const HomeProperty: React.FC = () => {
     return (
       <div>
           <h1 className="font-semibold text-[30px] md:text-[35px] lg:text-[40px] text-center py-3 px-2 sm:px-6 md:px-12 lg:px-20">Properties</h1>
-        <p className="text-black text-[20px] px-2 sm:px-6 md:px-12 lg:px-20 text-center mb-5">Welcome to our exclusive collection of fully finished apartments. Discover the perfect home among our thoughtfully designed units, each offering a range of desirable features.</p>
+        <p className="text-gray-800 text-[20px] px-2 sm:px-6 md:px-12 lg:px-20 text-center mb-5">Welcome to our exclusive collection of fully finished apartments. Discover the perfect home among our thoughtfully designed units, each offering a range of desirable features.</p>
           <div className="container flex flex-col lg:flex-row justify-between items-center bg-secondary lg:max-h-[450px] overflow-y-visible mx-2 sm:mx-4 md:mx-12 lg:mx-20 mt-10">
             <div className="flex lg:w-1/3 lg:flex-col gap-6 px-4 w-full ">
                 {jsonData.map((item: any) => (

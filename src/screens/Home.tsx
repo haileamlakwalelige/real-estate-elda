@@ -16,7 +16,7 @@ const Home = () => {
 
 
   return (
-    <div className='bg-primary text-black overflow-x-hidden'>
+    <div className='bg-primary text-gray-800 overflow-x-hidden'>
       <HomeHero />
       <HorizontalLine />
       <HomeExplore />

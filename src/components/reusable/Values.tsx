@@ -27,7 +27,7 @@ function Values() {
             <p className="text-bold text-green-500 text-[24px] md:text-[28px] font-bold">
               Vision
             </p>
-            <p className="text-black lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
+            <p className="text-gray-800 lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
               Outline the company's vision for the future, including goals for expansion,
               innovation, and continued excellence in the real estate industry.
             </p>
@@ -39,7 +39,7 @@ function Values() {
             <p className="text-bold text-green-500 text-[24px] md:text-[28px] font-bold">
               Value
             </p>
-            <p className="text-black lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
+            <p className="text-gray-800 lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
               Detail the core values that guide Eldana Spring Homes in all its endeavors,
               such as integrity, professionalism, customer satisfaction, and a commitment to
               quality.
@@ -52,7 +52,7 @@ function Values() {
             <p className="text-bold text-green-500 text-[24px] md:text-[28px] font-bold">
               Mission
             </p>
-            <p className="text-black lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
+            <p className="text-gray-800 lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
               Our mission is to redefine the real estate experience by providing
               unparalleled service, exceptional properties, and personalized solutions to
               meet the diverse needs of our clients.

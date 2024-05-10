@@ -14,7 +14,7 @@ const Middle = () => {
             <p className="text-bold text-green-500 text-[24px] md:text-[28px] font-bold">
               Vision
             </p>
-            <p className="text-black lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
+            <p className="text-gray-800 lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
               Outline the company's vision for the future, <br/> including goals for expansion,<br/>
               innovation, and continued excellence <br/> in the real estate industry.
             </p>
@@ -30,7 +30,7 @@ const Middle = () => {
             <p className="text-bold text-green-500 text-[24px] md:text-[28px] font-bold">
               Value
             </p>
-            <p className="text-black lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
+            <p className="text-gray-800 lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
             Detail the core values that guide Eldana <br/> Spring Homes in all its endeavors,
               such as <br/> integrity, professionalism, customer <br/> satisfaction, and a commitment to <br/>
               quality.
@@ -47,7 +47,7 @@ const Middle = () => {
             <p className="text-bold text-green-500 text-[24px] md:text-[28px] font-bold">
               Mission
             </p>
-            <p className="text-black lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
+            <p className="text-gray-800 lg:-mt-40 lg:ml-32 px-6 text-center text-[17px] md:px-8">
             our mission is to redefine the real estate <br/> experience by providing unparalleled <br/> service, exceptional properties, and <br/> personalized solutions to meet the <br/> diverse needs of our clients.
             </p>
            </div>

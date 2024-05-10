@@ -34,26 +34,26 @@ const ContactForm = () => {
 
                         {/* Item 1 */}
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-black text-[14px] pb-2 font-semibold">Full Name</p>
-                            <input type="text" className="min-w-[300px]  px-2 h-[45px] bg-primary border-[1px] border-footer rounded-lg  placeholder:px-2 placeholder:text-black text-black outline-none focus:outline-none" />
+                            <p className="text-gray-800 text-[14px] pb-2 font-semibold">Full Name</p>
+                            <input type="text" className="min-w-[300px]  px-2 h-[45px] bg-primary border-[1px] border-footer rounded-lg  placeholder:px-2 placeholder:text-gray-800 text-gray-800 outline-none focus:outline-none" />
                         </div>
 
                         {/* Item 2 */}
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-black text-[14px] pb-2 font-semibold">Email</p>
-                            <input type="email" className="min-w-[300px]  px-2 h-[45px] bg-primary border-[1px] border-footer rounded-lg placeholder:px-2 placeholder:text-black text-black outline-none focus:outline-none" />
+                            <p className="text-gray-800 text-[14px] pb-2 font-semibold">Email</p>
+                            <input type="email" className="min-w-[300px]  px-2 h-[45px] bg-primary border-[1px] border-footer rounded-lg placeholder:px-2 placeholder:text-gray-800 text-gray-800 outline-none focus:outline-none" />
                         </div>
 
                         {/* Item 3 */}
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-black text-[14px] pb-2 font-semibold">Subject</p>
-                            <input type="text" className="min-w-[300px]  px-2 h-[45px] bg-primary border-[1px] border-footer rounded-lg placeholder:px-2 placeholder:text-black text-black outline-none focus:outline-none" />
+                            <p className="text-gray-800 text-[14px] pb-2 font-semibold">Subject</p>
+                            <input type="text" className="min-w-[300px]  px-2 h-[45px] bg-primary border-[1px] border-footer rounded-lg placeholder:px-2 placeholder:text-gray-800 text-gray-800 outline-none focus:outline-none" />
                         </div>
 
                         {/* Item 4 */}
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-black text-[14px] pb-2 font-semibold">How can we help?</p>
-                            <textarea rows={3} className="min-w-[300px]  px-2 bg-primary border-[1px] border-footer rounded-lg  placeholder:px-2 placeholder:text-black text-black outline-none focus:outline-none py-0.5" />
+                            <p className="text-gray-800 text-[14px] pb-2 font-semibold">How can we help?</p>
+                            <textarea rows={3} className="min-w-[300px]  px-2 bg-primary border-[1px] border-footer rounded-lg  placeholder:px-2 placeholder:text-gray-800 text-gray-800 outline-none focus:outline-none py-0.5" />
                         </div>
                         <div className="flex justify-center items-center text-center min-w-[465px] mb-10 lg:mb-0 mt-5">
                             <Button type="submit" text="Send" />
@@ -66,15 +66,15 @@ const ContactForm = () => {
                     <p className="text-[18px] md:text-[20px] lg:text-[24px] text-gray-800">To know more about Eldana spring home services, please fill out the contact form and a member of the team will be in touch soon.</p>
                     <div className="mt-10 flex flex-col gap-5 ">
                         <div className="flex justify-between items-center gap-10 lg:gap-20 xl:gap-40">
-                            <p className="text-black text-[18px] md:text-[20px] lg:text-[22px]"> Apartment for family </p>
+                            <p className="text-gray-800 text-[18px] md:text-[20px] lg:text-[22px]"> Apartment for family </p>
                             <FaPlusCircle className="bg-white cursor-pointer text-footer h-[20px] w-[20px]" size={15} onClick={handleOne} />
                         </div>
                         {faq1 && <div>
                             <p className="text-gray-800 text-[16px] lg:text-[18px]">Spacious 3-bedroom luxury apartments in Addis Ababa, ideal for families seeking comfort and convenience. Includes underground parking and standby generator.</p>
                         </div>}
-                        <hr className="text-black w-full h-[2px]" />
+                        <hr className="text-gray-800 w-full h-[2px]" />
                         <div className="flex justify-between items-center gap-10 lg:gap-20 ">
-                            <p className="text-black text-[18px] md:text-[20px] lg:text-[22px] w-full"> More about Eldana spring home </p>
+                            <p className="text-gray-800 text-[18px] md:text-[20px] lg:text-[22px] w-full"> More about Eldana spring home </p>
                             <FaPlusCircle className="bg-white cursor-pointer text-footer h-[24px] w-[24px]" size={15} onClick={handleTwo} />
                         </div>
                         {faq2 && <div>
@@ -82,9 +82,9 @@ const ContactForm = () => {
                                 Eldana Spring Homes offer fully finished 3-bedroom luxury apartments in Addis Ababa, featuring family-oriented layouts, underground parking, standby generator, and a dedicated transformer for uninterrupted power supply, ensuring comfort and convenience.
                             </p>
                         </div>}
-                        <hr className="text-black w-full h-[2px]" />
+                        <hr className="text-gray-800 w-full h-[2px]" />
                         <div className="flex justify-between items-center gap-10 lg:gap-20 xl:gap-40">
-                            <p className="text-black text-[18px] md:text-[20px] lg:text-[22px]"> How to get us </p>
+                            <p className="text-gray-800 text-[18px] md:text-[20px] lg:text-[22px]"> How to get us </p>
                             <FaPlusCircle className="bg-white cursor-pointer text-footer h-[20px] w-[20px]" size={15} onClick={handleThree} />
                         </div>
                         {faq3 && <div>

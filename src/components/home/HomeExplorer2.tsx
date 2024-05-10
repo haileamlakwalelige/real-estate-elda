@@ -37,7 +37,7 @@ const HomeExplore2 = () => {
 
     return (
         <div className='flex flex-col lg:hidden'>
-            <p className='text-black font-semibold text-[28px] text-center pb-5  md:text-[30px] lg:text-[32px]'>Explore what we have</p>
+            <p className='text-gray-800 font-semibold text-[28px] text-center pb-5  md:text-[30px] lg:text-[32px]'>Explore what we have</p>
             <div className="carousel gap-10 mr-5 px-3 mx-3" style={{ width: '100%', overflowX: 'auto' }}>
                 <div className="carousel-item">
                     <div
