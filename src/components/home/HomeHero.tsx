@@ -15,9 +15,10 @@ const HomeHero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 3000,
-    cssEase: "linear"
+    speed: 4000,
+    autoplaySpeed: 8000,
+    cssEase: "linear",
+    pauseOnHover:false,
   };
 
   return (
