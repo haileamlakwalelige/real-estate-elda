@@ -42,3 +42,56 @@
     transform: scale(1.2);
   }
   
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-6 {
+    gap: 1.5rem; /* Adjust the gap between items */
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rounded-xl {
+    border-radius: 0.75rem; /* Adjust the border radius */
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.05); /* Adjust the scale factor on hover */
+}
+
+.transition-all {
+    transition-property: all;
+    transition-duration: 0.3s; /* Adjust the transition duration */
+}
+
+.duration-300 {
+    transition-duration: 0.3s;
+}
