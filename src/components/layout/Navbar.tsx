@@ -8,6 +8,8 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
+
+
 const Navbar = () => {
   const [show, setShow] = useState<boolean>(false);
   const closeMobileMenu = () => setShow(false);
@@ -18,7 +20,7 @@ const Navbar = () => {
         <Link to="/">
           <img src={logo} alt='' className='max-w-[249px] max-h-[63px] ' />
         </Link>
-        <div onClick={() => setShow(!show)} className='text-black'>
+        <div onClick={() => setShow(!show)} className='text-gray-800'>
           {show ? <FaTimes /> : <FaBars />}
         </div>
       </div>
@@ -40,18 +42,20 @@ const Navbar = () => {
               </div>
               <div className='flex justify-center gap-6 list-none px-4 mt-3'>
                 <Link to='/properties'>
-                  <li onClick={closeMobileMenu} className='font-semibold text-black'>Properties</li>
+                  <li onClick={closeMobileMenu} className='font-semibold text-gray-800'>Properties</li>
                 </Link>
                 <Link to="/about">
-                  <li onClick={closeMobileMenu} className='font-semibold text-black'>About Us</li>
+                  <li onClick={closeMobileMenu} className='font-semibold text-gray-800'>About Us</li>
                 </Link>
-                <Link to="/contact">
-                  <li onClick={closeMobileMenu} className='font-semibold text-black'>Contact Us</li>
+                <Link to="/information">
+                  <li onClick={closeMobileMenu} className='font-semibold text-gray-800'>Information</li>
                 </Link>
               </div>
             </div>
             <div>
+              <Link to="/contact">
               <li onClick={closeMobileMenu} className='bg-footer text-primary py-2 px-8 rounded-3xl text-lg ml-20'>Contact us</li>
+              </Link>
             </div>
           </div>
         </div>
@@ -63,17 +67,19 @@ const Navbar = () => {
             <div className='flex lg:hidden flex-col justify-center items-center list-none gap-8 -mt-20'>
               <div className='flex lg:hidden flex-col justify-center items-center gap-4'>
                 <Link to="/properties">
-                  <li onClick={closeMobileMenu} className='font-semibold text-black'>Properties</li>
+                  <li onClick={closeMobileMenu} className='font-semibold text-gray-800'>Properties</li>
                 </Link>
                 <Link to="/about">
-                  <li onClick={closeMobileMenu} className='font-semibold text-black'>About Us</li>
+                  <li onClick={closeMobileMenu} className='font-semibold text-gray-800'>About Us</li>
                 </Link>
-                <Link to="/contact">
-                  <li onClick={closeMobileMenu} className='font-semibold text-black'>Contact Us</li>
+                <Link to="/information">
+                  <li onClick={closeMobileMenu} className='font-semibold text-gray-800'>Information</li>
                 </Link>
               </div>
               <div>
-                <li className='bg-footer text-primary py-2 px-8 rounded-3xl text-lg'>Contact us</li>
+                <Link to="/contact">
+                <li onClick={closeMobileMenu} className='bg-footer text-primary py-2 px-8 rounded-3xl text-lg'>Contact us</li>
+                </Link>
               </div>
             </div>
             <div className='flex mt-16 lg:hidden gap-8 list-none items-center justify-center'>
