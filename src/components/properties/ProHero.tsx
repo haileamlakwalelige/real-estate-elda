@@ -15,6 +15,7 @@ const ProHero: React.FC = () => {
         alignItems: 'end',
         color: 'white', // Text color on top of the image
       }}
+      className='bg-center'
     >
      <div className='flex flex-col justify-center items-start pb-10 px-2 sm:px-6 md:px-12 lg:px-20'>
      <h1 className='text-[50px] md:text-[60px] lg:text-[70px] font-bold'>Explore Our Properties</h1>
